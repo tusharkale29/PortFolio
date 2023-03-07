@@ -8,3 +8,18 @@ body{
 .red{
     font-family: monospace;
 }   
+.fcontainer{
+    display: flex;
+    border: 2px;
+    height: 45vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.fitem{
+    margin: 2px; 
+    width: 100px;
+    height: 100px;
+}

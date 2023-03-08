@@ -9,11 +9,15 @@ body{
     font-family: monospace;
 }   
 .techstack{
+    display: flex;
     height: auto;
     width: auto;
-    display: flex;
     flex-direction: column;
-    /* background: yellow; */
+}
+.lang{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px; 
 }
 .skills{
     height: auto;
@@ -22,12 +26,6 @@ body{
     flex-direction: row;
     /* background:turquoise; */
     padding-left: 100px;
-}
-.lang{
-    display: flex;
-    flex-direction: row;
-    margin-left: 150px;
-    /* background: violet ; */
 }
 img{
     height: 70px;

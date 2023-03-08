@@ -8,18 +8,36 @@ body{
 .red{
     font-family: monospace;
 }   
-.fcontainer{
+.techstack{
+    height: auto;
+    width: auto;
     display: flex;
-    border: 2px;
-    height: 45vh;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+    /* background: yellow; */
 }
-.fitem{
-    margin: 2px; 
-    width: 100px;
-    height: 100px;
+.skills{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    /* background:turquoise; */
+    padding-left: 100px;
+}
+.lang{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    /* background: violet ; */
+}
+img{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 10px;
 }

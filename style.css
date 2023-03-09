@@ -2,7 +2,7 @@ h1{
     font-family:Canadara ;
 }
 body{
-    background-color:whitesmoke;
+    background-color:rgba(69, 67, 67, 0.496);
     font-size: 20px;
 }
 .red{
@@ -27,6 +27,14 @@ body{
     /* background:turquoise; */
     padding-left: 100px;
 }
+.center {
+    display: block;
+    margin-left:60%;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
 img{
     height: 70px;
     width: 70px;
@@ -39,6 +47,6 @@ h3{
     margin-top: 40px;
     margin-left: 10px;
 }
-.numpy{
-    margin-left: -53px;
+#edu{
+    background-color: aqua;
 }

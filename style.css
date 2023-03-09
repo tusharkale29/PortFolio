@@ -18,16 +18,24 @@ body{
 .intro{
     height: 600px;
     width: auto;
-    /* background: rgb(227, 106, 106); */
+    /* background: rgb(129, 197, 250); */
+    padding-top: 10%;
+    margin-top: 0%;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    font-size: 20px;
+    padding-right: 400px; 
 }
 .center {
-    display: block;
-    margin-top:auto;
-    margin-left:60%;
-    margin-right: auto;
     width: 400px;
     height: 400px;
     border-radius: 50%;
+   
 }
 .about{
     height: 500px;
@@ -77,7 +85,7 @@ img{
 .contact{
     height: 300px;
     /* width: auto;
-    background: rgb(227, 106, 134); */
+    /* background: rgb(227, 106, 134); */ */
 }
 .img1{
     height: 30px;

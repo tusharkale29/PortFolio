@@ -1,47 +1,81 @@
 body{
-    margin: -10px;
+    background-color: aliceblue;
+}
+.display1{
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .container0{
+    font-family: sans-serif;
     height: 100vh;
     width: auto;
 }
 .resume{
     height: 100px;
     width: auto;
-    background: rgb(216, 176, 102);
+    
 }
 .intro{
     height: 600px;
     width: auto;
-    background: rgb(227, 106, 106);
+    /* background: rgb(227, 106, 106); */
+}
+.center {
+    display: block;
+    margin-top:auto;
+    margin-left:60%;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
 }
 .about{
-    height: 700px;
+    height: 500px;
     width: auto;
-    background: rgb(217, 227, 106);
+    /* background: rgb(217, 227, 106); */
 }
 .techstack{
-    height: 700px;
+    display: flex;
+    height:auto;
     width: auto;
-    background: rgb(106, 227, 203);
+    flex-direction: column;
+    padding-bottom: 10%;
+    /* background: rgb(106, 227, 203); */
+}
+.skills{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+.lang{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px; 
+}
+img{
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
 }
 .edu{
     height: 400px;
     width: auto;
-    background: rgb(70, 106, 223);
+    /* background: rgb(70, 106, 223); */
 }
 .exp{
     height: 400px;
     width: auto;
-    background: rgb(170, 106, 227);
+    /* background: rgb(170, 106, 227); */
 }
 .project{
     height: 400px;
     width: auto;
-    background: rgb(129, 166, 236);
+    /* background: rgb(129, 166, 236); */
 }
 .contact{
     height: 300px;
-    width: auto;
-    background: rgb(227, 106, 134);
+    /* width: auto;
+    background: rgb(227, 106, 134); */
 }

@@ -42,9 +42,7 @@ body{
     border-radius: 50%;
     margin-top: 100px;
 }
-h1{
-    font-size: 50px;
-}
+
 h3{
     font-size: 25px;
 }
@@ -62,6 +60,14 @@ p{
     padding-top: 20px;
     height: 500px;
     width: auto;
+}
+h1{
+    font-size: 60px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: justify;
+    line-height: 25px;   
 }
 .img{
     height: 30px;
@@ -91,8 +97,8 @@ p{
     margin-left: 50px; 
 }
 img{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     margin: 20px;
 }
 .education{

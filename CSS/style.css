@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+}
+#topbar{
+    /* background-color:aqua; */
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+    padding-left: 50px;
+}
+#resume{
+    float: left;
+    color: gray;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 150%;
+}
+.uni-padding{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.profile{
+    /* background-color: rgb(36, 92, 73); */
+    height: 700px;
+    width: auto;
+    padding-top: 20px;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-size: 20px;
+    padding-right: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+.photo{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: normal;
+    font-weight:100;
+    font-weight: lighter;
+    color: #212529;
+}
+.aboutme{
+    /* background-color: blueviolet; */
+    padding-top: 20px;
+    height: 500px;
+    width: auto;
+}
+.img{
+    height: 30px;
+    width: auto;
+    border-radius: 30%;
+}
+.techstack{
+    display: flex;
+    height:500px;
+    width: auto;
+    flex-direction: column;
+    padding-bottom: 10%;
+    /* background: rgb(106, 227, 203); */
+}
+.skills{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+.lang{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px; 
+}
+img{
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+}
+.education{
+    padding-top: 20px;
+    /* background-color: burlywood; */
+    height: 400px;
+    width: auto;
+
+}
+.experience{
+    /* background-color: aqua; */
+    height: 600px;
+    width: auto;
+    padding-top: 20px;
+}
+.project{
+    /* background-color: rgb(66, 81, 76); */
+    padding-top: 20px;
+    height: 600px;
+    width: auto;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: normal;
+    font-weight:100;
+    font-weight: lighter;
+    color: #212529;
+}
+.project h3{
+    font-size: 20px;
+}
+.footer{
+    /* background-color: aquamarine; */
+    padding-top: 20px;
+    height: 500px;
+    width: auto;
+}
